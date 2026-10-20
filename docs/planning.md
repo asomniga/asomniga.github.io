@@ -26,10 +26,67 @@ Interactive features, such as selecting a ward or reporting period, will help us
 Overall, the proposed application aims to improve the usability and interpretability of the supplied youth-offending statistics. Its value will depend on the accuracy of the data presentation, the usefulness of its interactive features and how effectively users can understand the information displayed. 
 
 ### Options Considered
-TODO: What are some other customer options or leading products that address the same needs?
+Before developing the proposed application, it is important to consider alternative ways of presenting and exploring the Youth Offenders in Bristol by Ward dataset. Evaluating different solutions will help determine which approach is most suitable for the project's objectives, available resources and intended users.
+Three possible solutions have been identified.
+Option A: Using the Original Spreadsheet
+The first option is to retain the dataset in its original spreadsheet format. Users would access the data through a spreadsheet application and manually examine the records to compare wards and reporting periods.
+Advantages:
+•	Requires little or no additional development.
+•	Preserves the original data structure.
+•	Allows users familiar with spreadsheets to inspect individual records.
+Disadvantages:
+•	Users may need to examine numerous rows to identify relevant information.
+•	Comparing multiple wards and reporting periods may require additional manual work.
+•	Users without spreadsheet or data-analysis experience may find the information difficult to interpret.
+•	The presentation is less interactive and visually accessible than a purpose-built dashboard.
+Option B: Creating a Static Report
+The second option is to create a report containing charts, graphs and written summaries derived from the dataset. The report could be produced as a PDF document or another fixed-format publication.
+Advantages:
+•	Presents statistical information in a structured and visually clear format.
+•	Allows readers to understand key findings without examining the raw dataset.
+•	Can be distributed easily as a document.
+•	Requires less interactive functionality than a web application.
+Disadvantages:
+•	Users cannot dynamically change the displayed reporting period or ward unless multiple views are prepared in advance.
+•	Exploring specific combinations of wards and reporting periods may be difficult.
+•	Updating the report when the underlying data changes may require producing a new version.
+•	Users have limited opportunities to explore the data beyond the information selected by the report's author.
+Option C: Developing an Interactive HTML Web Application
+The third option is to develop an interactive HTML web application that presents the dataset through charts, graphs, summaries and user-controlled filters.
+Users would be able to explore available reporting periods, compare statistics between Bristol's wards and investigate patterns in the recorded data through a single interface.
+Advantages:
+•	Enables interactive exploration of the dataset.
+•	Allows users to compare wards and reporting periods more conveniently.
+•	Presents statistical information through visualizations that may be easier to understand than raw tables.
+•	Can combine several visualization types and interactive features within one application.
+•	Provides opportunities to improve the interface and add features as development progresses.
+Disadvantages:
+•	Requires development, testing and maintenance.
+•	May require additional JavaScript libraries to implement charts and interactive features.
+•	Incorrect data processing or poorly designed visualizations could misrepresent the statistics.
+•	The application must be designed to handle missing values and differences in data completeness across reporting periods.
+Comparison of the Alternatives
+The three options differ in their interactivity, development requirements and ability to support exploration of the dataset.
+The original spreadsheet is the simplest option to maintain, but it places more responsibility on users to interpret the information. A static report improves the presentation of selected findings but offers limited opportunities for users to investigate the data independently. An interactive HTML web application requires more development effort but provides greater flexibility for comparing wards and exploring reporting periods.
+Preferred Solution
+The interactive HTML web application is the preferred option for this project because it aligns with the objective of making youth-offending statistics easier to explore, compare and interpret.
+The application will combine visual presentation with interactive features, allowing users to investigate the available data rather than being restricted to predefined tables or charts. HTML, CSS and JavaScript are proposed as the core technologies for developing the interface and its interactive functionality.
+The final choice will be further justified through the evaluation of relevant selection criteria, including functionality, usability, development effort and suitability for the project requirements.
+
 
 ### Expected Risks
-TODO: What are the main risks of this project?
+The development of the proposed Youth Offenders in Bristol by Ward: An Interactive Data Visualization Web Application will involve both financial and non-financial costs. These costs must be considered during the planning stage to determine whether the proposed solution is practical and achievable within the project's available resources.
+Development Costs
+The application is planned to be developed using HTML, CSS and JavaScript. These technologies can be used without purchasing software license, helping to minimize the direct financial cost of development. A standard web browser and a suitable code editor can be used to develop and test the application.
+Data Costs
+The project will use the existing Youth Offenders in Bristol by Ward dataset. If the dataset remains freely available from its original source, no purchase cost will be required. Time will still be needed to inspect, clean and prepare the data for use in the application.
+Hosting and Deployment Costs
+During development, the application can be tested locally on a computer, avoiding the need for paid hosting. If the project needs to be published online, a suitable hosting service may be required. The final cost will depend on the hosting option selected and the project's deployment requirements.
+Time and Resource Costs
+Although the proposed technologies may be free to use, development will require time for planning, data preparation, interface design, implementation, testing and documentation. This represents a non-financial cost because time and effort must be allocated to complete the project successfully.
+Contingency
+A contingency allowance should be considered to accommodate unexpected expenses or changes in requirements. The project lecture suggests that a contingency of approximately 25–30% may be added to estimated costs. Since the project is expected to use free development tools and may not require paid hosting, the direct financial costs are expected to be low. Any contingency allowance should therefore be calculated once the actual costs have been identified.
+Overall, the proposed application is expected to be relatively inexpensive to develop because it will use existing data and commonly available web technologies. The main resources required will be the time and effort needed to prepare the data, design the application, test its functionality and complete the project documentation. The final cost estimate will depend on the tools and deployment arrangements selected.
 
 ## Project Scope
 TODO: Scope of the System of Interest. Include a bullet list of things from your context diagram that are in scope.
