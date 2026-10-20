@@ -89,6 +89,26 @@ A contingency allowance should be considered to accommodate unexpected expenses 
 Overall, the proposed application is expected to be relatively inexpensive to develop because it will use existing data and commonly available web technologies. The main resources required will be the time and effort needed to prepare the data, design the application, test its functionality and complete the project documentation. The final cost estimate will depend on the tools and deployment arrangements selected.
 
 ## Project Scope
-TODO: Scope of the System of Interest. Include a bullet list of things from your context diagram that are in scope.
 
-![Insert your Context Diagram Here](images/context.png)
+The project involves designing and developing an interactive web application that presents youth-offending statistics across the wards of Bristol. The application will use the available *Youth Offenders in Bristol by Ward* dataset and display the information through charts, graphs and other visual representations to make the data easier to understand.
+
+The system will include the following features and components:
+
+- **Data source:** Use the available dataset containing youth-offending statistics for Bristol's wards.
+- **Data visualisation:** Present the available statistics through appropriate charts and graphs.
+- **Ward comparison:** Allow users to compare statistics between different wards.
+- **Reporting periods:** Allow users to explore the reporting periods available in the dataset.
+- **User interaction:** Provide a simple interface for selecting and exploring the available data.
+- **Web technologies:** Use HTML, CSS and JavaScript to develop the application.
+- **User accessibility:** Design a clear, user-friendly interface that can adapt to different screen sizes.
+- **Data presentation and accuracy:** Ensure that the displayed information reflects the source dataset and acknowledge relevant data limitations.
+- **System maintenance:** Allow the maintainer to update or revise the application when necessary.
+
+The project will focus on visualising and exploring existing statistical data. It will not identify individual offenders, determine the causes of youth offending or predict future offending levels.
+
+### Context Diagram
+
+The context diagram illustrates the proposed web application and its relationship with users, the maintainer, the data source, the technologies used and other relevant system considerations.
+
+<img width="1536" height="1024" alt="image pro" src="https://github.com/user-attachments/assets/c5b03fd7-3241-40d3-bb03-fceed942b0d8" />
+
