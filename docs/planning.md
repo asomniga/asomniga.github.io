@@ -28,42 +28,75 @@ Overall, the proposed application aims to improve the usability and interpretabi
 ### Options Considered
 Before developing the proposed application, it is important to consider alternative ways of presenting and exploring the Youth Offenders in Bristol by Ward dataset. Evaluating different solutions will help determine which approach is most suitable for the project's objectives, available resources and intended users.
 Three possible solutions have been identified.
+
 Option A: Using the Original Spreadsheet
 The first option is to retain the dataset in its original spreadsheet format. Users would access the data through a spreadsheet application and manually examine the records to compare wards and reporting periods.
+
 Advantages:
+
 •	Requires little or no additional development.
+
 •	Preserves the original data structure.
+
 •	Allows users familiar with spreadsheets to inspect individual records.
 Disadvantages:
+
 •	Users may need to examine numerous rows to identify relevant information.
+
 •	Comparing multiple wards and reporting periods may require additional manual work.
+
 •	Users without spreadsheet or data-analysis experience may find the information difficult to interpret.
+
 •	The presentation is less interactive and visually accessible than a purpose-built dashboard.
+
 Option B: Creating a Static Report
 The second option is to create a report containing charts, graphs and written summaries derived from the dataset. The report could be produced as a PDF document or another fixed-format publication.
+
 Advantages:
+
 •	Presents statistical information in a structured and visually clear format.
+
 •	Allows readers to understand key findings without examining the raw dataset.
+
 •	Can be distributed easily as a document.
+
 •	Requires less interactive functionality than a web application.
+
 Disadvantages:
+
 •	Users cannot dynamically change the displayed reporting period or ward unless multiple views are prepared in advance.
+
 •	Exploring specific combinations of wards and reporting periods may be difficult.
+
 •	Updating the report when the underlying data changes may require producing a new version.
+
 •	Users have limited opportunities to explore the data beyond the information selected by the report's author.
+
 Option C: Developing an Interactive HTML Web Application
+
 The third option is to develop an interactive HTML web application that presents the dataset through charts, graphs, summaries and user-controlled filters.
 Users would be able to explore available reporting periods, compare statistics between Bristol's wards and investigate patterns in the recorded data through a single interface.
+
 Advantages:
+
 •	Enables interactive exploration of the dataset.
+
 •	Allows users to compare wards and reporting periods more conveniently.
+
 •	Presents statistical information through visualizations that may be easier to understand than raw tables.
+
 •	Can combine several visualization types and interactive features within one application.
+
 •	Provides opportunities to improve the interface and add features as development progresses.
+
 Disadvantages:
+
 •	Requires development, testing and maintenance.
+
 •	May require additional JavaScript libraries to implement charts and interactive features.
+
 •	Incorrect data processing or poorly designed visualizations could misrepresent the statistics.
+
 •	The application must be designed to handle missing values and differences in data completeness across reporting periods.
 Comparison of the Alternatives
 The three options differ in their interactivity, development requirements and ability to support exploration of the dataset.
